@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jNighton-portfolio/static/css/main.c2cab247.css",
+    "main.js": "/jNighton-portfolio/static/js/main.37744df2.js",
+    "static/media/me8.JPG": "/jNighton-portfolio/static/media/me8.f4ca107c7e16160b77b0.JPG",
+    "static/media/skyBg.png": "/jNighton-portfolio/static/media/skyBg.c447a9ea4c24f4f981ac.png",
+    "index.html": "/jNighton-portfolio/index.html",
+    "main.c2cab247.css.map": "/jNighton-portfolio/static/css/main.c2cab247.css.map",
+    "main.37744df2.js.map": "/jNighton-portfolio/static/js/main.37744df2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.37744df2.js"
+  ]
+}
