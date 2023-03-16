@@ -1,8 +1,20 @@
 import React from 'react';
 
+const styles = {
+  navTab: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-around",
+    fontWeight: "bold",
+    fontSize: 20,
+    backgroundColor: "#FFFFFFAA",
+    margin: "2, 2, 2, 2",
+  },
+}
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav" style={styles.navTab}>
       <li className="nav-item">
         <a
           href="#about"

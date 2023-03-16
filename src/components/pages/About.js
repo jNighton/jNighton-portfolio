@@ -91,9 +91,9 @@ export default function About() {
             <h5>React</h5>
           </div>
           <div style={styles.techContainer}>
-            <img src = "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667" 
+            <img src = "https://www.chartjs.org/img/chartjs-logo.svg" 
             style={styles.iconContainer}/>
-            <h5>Git</h5>
+            <h5>Chart.js</h5>
           </div>
         </Col>
         <Col xs={6} md={3}>
