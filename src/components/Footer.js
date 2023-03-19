@@ -21,11 +21,10 @@ const styles = {
         display: "flex",
         justifyContent: "space-between"
     },
-    link: {
-        display: "flex",
-        alignItems:"center",
-        justifyContent: "space-between",
-    }
+    iconContainer: {
+        maxHeight: 60,
+        margin: 5,
+      },
 }
 
 export default function Footer() {
@@ -35,11 +34,17 @@ export default function Footer() {
                 <Col>
                 <img src={sprite} style={styles.sprite}/>
                 </Col>
-                <Col style={styles.link}>
-                    <h3>Github</h3>
+                <Col >
+                    <a href="https://github.com/jNighton">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original-wordmark.svg"
+                        style={styles.iconContainer}/>
+                    </a>
                 </Col>
-                <Col style={styles.link}>
-                    <h3>LinkdIn</h3>
+                <Col style={styles.iconContainer}>
+                    <a href="https://www.linkedin.com/in/jakob-dayton-235885152/">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/640px-LinkedIn_icon_circle.svg.png"
+                        style={styles.iconContainer}/>
+                    </a>
                 </Col>
             </Row>
         </Container>

@@ -43,6 +43,10 @@ export default function Portfolio() {
   return (
     <Container>
     <h1 class="text-center">Portfolio</h1>
+    <p style={styles.text}>
+    Here is a collection of projects that I have completed throughout my time at the 
+    Full Stack Coding Bootcamp offered through UNC: Charlotte
+    </p>
     <Row>
     <Col xs={12} md={4} style={styles.align}>
       <div style={styles.projectContainer}>
