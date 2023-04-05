@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/jNighton-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/jNighton-portfolio/static/js/main.40733d11.js",
+    "main.js": "/jNighton-portfolio/static/js/main.f8ab2c21.js",
     "static/media/me8.JPG": "/jNighton-portfolio/static/media/me8.f4ca107c7e16160b77b0.JPG",
+    "static/media/remarqueLogo.png": "/jNighton-portfolio/static/media/remarqueLogo.c38cc4925c005b6a022d.png",
     "static/media/slashed-and-smashed-thumbnail.png": "/jNighton-portfolio/static/media/slashed-and-smashed-thumbnail.9cbdd199e3e33673792f.png",
     "static/media/ecommerce-backend-thumbnail.png": "/jNighton-portfolio/static/media/ecommerce-backend-thumbnail.422859f9d72f5114dd64.png",
     "static/media/readme-generator-thumbnail.png": "/jNighton-portfolio/static/media/readme-generator-thumbnail.58248f9a61945281386b.png",
@@ -12,10 +13,10 @@
     "static/media/hydro-home-thumbnail.png": "/jNighton-portfolio/static/media/hydro-home-thumbnail.70bdaa4aa15613789d7b.png",
     "index.html": "/jNighton-portfolio/index.html",
     "main.c2cab247.css.map": "/jNighton-portfolio/static/css/main.c2cab247.css.map",
-    "main.40733d11.js.map": "/jNighton-portfolio/static/js/main.40733d11.js.map"
+    "main.f8ab2c21.js.map": "/jNighton-portfolio/static/js/main.f8ab2c21.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.40733d11.js"
+    "static/js/main.f8ab2c21.js"
   ]
 }
