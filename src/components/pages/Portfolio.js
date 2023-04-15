@@ -2,6 +2,7 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import rmq from "../imgs/remarqueLogo.png";
 import hh from "../imgs/hydro-home-thumbnail.png";
 import ecbe from "../imgs/ecommerce-backend-thumbnail.png";
 import jsq from "../imgs/quiz-project-thumbnail.png";
@@ -47,6 +48,19 @@ export default function Portfolio() {
     Here is a collection of projects that I have completed throughout my time at the 
     Full Stack Coding Bootcamp offered through UNC: Charlotte
     </p>
+    <Row>
+      <Col xs={12} style={styles.align}>
+      <div style={styles.projectContainer}>
+        <a href="https://remarque-bullet.herokuapp.com/">
+          <img src = {rmq} 
+            style={styles.imgContainer}/>
+        </a>
+        <h3>
+           Remarque
+          </h3>
+      </div>
+      </Col>
+    </Row>
     <Row>
     <Col xs={12} md={4} style={styles.align}>
       <div style={styles.projectContainer}>
